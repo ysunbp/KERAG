@@ -752,4 +752,4 @@ if __name__ == "__main__":
     outpath = "/result/QALD-10/kerag-gpt-summarizer.json"
     kerag(question_set, wikisp_generator, wikisp_tokenizer, generator, outpath, relation2link_dict, link2relation_dict, openai_client)
 
-# python -m torch.distributed.run --nproc_per_node 1 KERAG-gpt.py
+# python -m torch.distributed.run --nproc_per_node 1 QALD-QA.py
