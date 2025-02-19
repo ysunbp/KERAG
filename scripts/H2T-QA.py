@@ -577,5 +577,4 @@ if __name__ == "__main__":
         print('Checking tail questions')
         KERAG(tail_questions,  "/result/Head2Tail/xxx-tail-8b.json", generator, ngram_cache, topK=10, dpr_one_hop=dpr_hop)
     
-# python -m torch.distributed.run --nproc_per_node 1 check_one_hop_kb_dpr_filter_before-modify.py
-# torchrun --nproc_per_node 1 check_one_hop_kb.py
+# python -m torch.distributed.run --nproc_per_node 1 H2T-QA.py
